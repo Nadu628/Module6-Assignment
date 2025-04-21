@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="welcomeToPartyPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.module6.WelcomeToThePartyController">
+   <children>
+      <Circle fill="#ffb41f" layoutX="96.0" layoutY="95.0" radius="71.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#48ff1f" height="169.0" layoutX="-1.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Circle fill="#613314" layoutX="317.0" layoutY="217.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="100.0" startX="-100.0" />
+      <Line endX="0.5" endY="25.5" layoutX="317.0" layoutY="273.0" startX="0.5" startY="-25.5" />
+      <Line endX="0.5" endY="11.5" layoutX="317.0" layoutY="286.0" startX="-20.5" startY="40.5" />
+      <Line endX="-38.5" endY="14.5" layoutX="382.0" layoutY="315.0" startX="-63.5" startY="-16.5" />
+      <Line endX="30.5" layoutX="318.0" layoutY="264.0" startX="-26.5" />
+      <Label fx:id="welcomeUserLabel" layoutX="198.0" layoutY="121.0" text="Welcome User!">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="106.0" fitWidth="109.0" layoutX="386.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dancing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="142.0" layoutX="395.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@disco.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

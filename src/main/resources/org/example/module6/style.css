@@ -1,0 +1,77 @@
+/* General styles for the registration page */
+AnchorPane {
+    -fx-background-color: #F5F5DC; /* Beige background tone */
+}
+
+Pane {
+    -fx-background-color: #F5F5DC; /* Matches the AnchorPane for consistency */
+}
+
+Label {
+    -fx-text-fill: #8B4513; /* Dark beige text tone */
+    -fx-font-family: "Century Gothic Bold";
+    -fx-font-size: 18px;
+}
+
+Button {
+    -fx-background-color: #DEB887; /* Light brown for buttons */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 15px;
+    -fx-border-color: #8B4513; /* Dark beige border */
+    -fx-border-width: 1.5px;
+    -fx-padding: 10px;
+}
+
+Button:hover {
+    -fx-background-color: #D2B48C; /* Slightly darker beige tone on hover */
+}
+
+TextField {
+    -fx-background-color: #FFF8DC; /* Pale beige background for inputs */
+    -fx-border-color: #8B4513; /* Dark beige border */
+    -fx-border-width: 1.5px;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 14px;
+}
+
+TextField:focused {
+    -fx-background-color: #FDF5E6; /* Slightly brighter beige when focused */
+    -fx-border-color: #D2B48C; /* Slightly lighter border */
+}
+
+/* Error state styling for text fields */
+.text-field-error {
+    -fx-background-color: #F08080; /* Light red for invalid input */
+    -fx-border-color: red; /* Bright red border */
+    -fx-border-width: 2px;
+}
+
+.text-field-error:focused {
+    -fx-background-color: #FA8072; /* Slightly brighter red when focused */
+}
+
+/* Valid state styling for text fields */
+.text-field-valid {
+    -fx-background-color: #90EE90; /* Light green for valid input */
+    -fx-border-color: green; /* Bright green border */
+    -fx-border-width: 2px;
+}
+
+.text-field-valid:focused {
+    -fx-background-color: #98FB98; /* Slightly brighter green when focused */
+}
+
+/* Error label styling */
+.label-error {
+    -fx-text-fill: red; /* Bright red text for errors */
+    -fx-font-family: "Century Gothic Bold";
+    -fx-font-size: 14px;
+}
+
+/* Success label styling */
+.label-success {
+    -fx-text-fill: green; /* Bright green text for success */
+    -fx-font-family: "Century Gothic Bold";
+    -fx-font-size: 14px;
+}
